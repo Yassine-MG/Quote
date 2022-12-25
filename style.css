@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 45%;
+    margin: 300px auto;
+    background-color: rgba(0, 0, 0, 0.749);
+    color: rgb(213, 213, 213);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+h2{
+    margin: 10px 20px;
+}
+.quote{
+    margin: 20px;
+    font-size: 20px;
+}
+.author{
+    margin: 20px;
+    font-size: 20px;
+}
+img{
+    display: none;
+}
+button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: brown;
+    color: #fff;
+    display: block;
+    margin: 20px;
+}
+
+
+body {
+    background: url(./img/pexels-james-wheeler-414612.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
