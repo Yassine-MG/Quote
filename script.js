@@ -35,6 +35,7 @@ fetch("https://api.pexels.com/v1/search?query=nature",{
      return resp.json()
    })
    .then(data => {
+    console.log(data);
     btn.addEventListener("click",()=>{
         getPics(data.photos);
      })
